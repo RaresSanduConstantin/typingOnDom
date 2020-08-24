@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+  
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.ceva{
+    display: flex;
+    height: 16px;
+    
+}
+
+span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+    /* align-self: flex-start; */
+}
+@keyframes caret {
+50% {
+    border-color: transparent;
+}
+}
+
+ 
